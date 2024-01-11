@@ -1,4 +1,4 @@
-package com.KoreaIT.java.JDBCAM;
+package com.KoreaIT.java.JDBCAM.dto;
 
 import java.time.LocalDateTime;
 import java.util.Map;
@@ -6,7 +6,7 @@ import java.util.Map;
 public class Article {
 
 	private int id;
-	private LocalDateTime regDate; 
+	private LocalDateTime regDate;
 	private LocalDateTime updateDate;
 	private String title;
 	private String body;
